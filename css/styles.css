@@ -1,0 +1,332 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+a {
+  color: black;
+  font-weight: bold;
+}
+
+a:hover {
+  color: grey;
+}
+
+h2 {
+  text-align: left;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+h4 {
+  line-height: 1.4;
+  font-weight: 600;
+  margin: 0 auto 0 auto;
+}
+
+h6 {
+  font-family: Raleway;
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 400;
+  margin: 0 auto 0 auto;
+}
+
+h5 {
+  font-weight: bold;
+}
+
+hr {
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  font-size: 14px;
+  letter-spacing: .03em;
+  line-height: 1.6em;
+}
+
+ul {
+  text-align: left;
+}
+
+
+/* navigation bar  */
+.navbar-nav {
+  margin-left: 450px;
+  margin-right: 0;
+}
+
+.nav-item {
+  margin-right: 40px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-left: 35px;
+}
+
+.navbar-container-fluid {
+  padding: 5px 0 5px;
+}
+
+/* Introduction  */
+.Block-content {
+  padding: 1% 5%;
+}
+
+.inner-block-content {
+  padding: 3% 20%;
+  text-align: left;
+}
+
+
+.latestEp-title {
+  padding: 15px 350px;
+}
+
+/* episodes list section */
+.features-box {
+  padding: 5%;
+}
+
+.episode-container {
+ padding: 5% 8%;
+ }
+
+.episode-images {
+  width: 250px;
+  height: 250px;
+  padding:
+}
+
+.episode-indiv-box {
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 18px;
+}
+
+.episodeList-item-title {
+  font: bold;
+  text-decoration-line: none;
+}
+
+.read-more-tag {
+
+  text-align: left;
+  text-decoration: none;
+  font-family:inherit;
+  font-size: 14px;
+  font-family: Raleway;
+  color: #5ecae8;
+  }
+
+.read-more-arrow {
+  color: #5ecae8;
+}
+
+
+.episode-date {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #f39459;
+}
+
+.icons {
+  color: black;
+}
+
+
+
+.listeningPlatform {
+  text-decoration-line: none;
+  text-align: center;
+}
+
+.platform1 {
+  text-decoration-line: none;
+  border-bottom-color: grey;
+  border-bottom-style: solid;
+}
+
+
+
+.episode-page-pic {
+  width: 100%;
+  height: 400px;
+  text-align: left;
+}
+
+.episode-hdg-pic {
+  padding: 50px;
+  text-align: center;
+}
+
+.EP-inner-block-content {
+  padding: 3% 25%;
+}
+
+.main-block-content {
+  padding: 0px 50px;
+  text-align: left;
+}
+
+.externl-Link {
+text-decoration-line: none;
+font-size: 0.9rem;
+}
+
+.social-media-link {
+  text-decoration: none;
+}
+
+/* Footer section */
+.footer-icon {
+  margin: 10px
+}
+
+#footer {
+  width: auto;
+  height: 110px;
+  background-color: black;
+  color: #595959;
+}
+
+#footer .container-fluid {
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+/* single episode page */
+@media (max-width:650px) {
+
+  /* .episode-images {
+    width: 420px;
+    height: 330px;
+  } */
+  .EP-Block-content {
+    padding: 10px 10px;
+  }
+
+  .EP-inner-block-content {
+    padding: 0 10px;
+  }
+
+  .main-block-content {
+    padding: 15px 0;
+  }
+
+  .episode-hdg-pic {
+    padding: 0;
+  }
+
+  .episode-page-pic {
+    width: 100%;
+  }
+}
+
+/* episode-list page */
+@media (min-width:1200px) {
+  .episode-images {
+    width: 100%;
+    padding-bottom: 15px;
+  }
+}
+
+@media (min-width:992px) {
+  .episode-images {
+    width: 100%;
+    padding-bottom: 15px;
+  }
+}
+
+@media(min-width: 500px) {
+  .episode-images {
+    width: 100%;
+    height: 270px;
+    padding-bottom: 15px;
+  }
+}
+
+/* episode list-image settings for 500px (mobile size) */
+@media(max-width: 500px) {
+  .episode-images {
+    width: 100%;
+    height: 270px;
+    padding-bottom: 0;
+  }
+
+  .episodeDate-p {
+    padding-top: 10px;
+    margin-bottom: 12px;
+  }
+}
+
+/* latest episode homeage  */
+.episode-container1 {
+  padding: 2% 1%;
+}
+
+.latestEp-title {
+  text-align: left;
+}
+
+/* (padding left/right must be same as .episode-indiv-box1) */
+.latesEp-title {
+  padding: 0 3%;
+  text-align: left;
+}
+
+.episode-indiv-box1 {
+  padding: 3% 3%;
+  text-align: left;
+  border-spacing: 33.33%
+}
+
+.episode-row1 {
+ padding-bottom: 40px;
+}
+
+
+.img-Div {
+  padding-bottom: 7%
+}
+
+.episode-images {
+  width: 100%;
+  height: auto;
+  padding: 0;
+}
+
+.episodeList-item-title {
+  font-size: 0.9rem;
+  padding-bottom: 7%;
+}
+
+.btn {
+  font-size: 0.8rem;
+  font-weight: bold;
+  border-width: 2px;
+
+}
+
+
+@media (max-width: 990px) {
+  .inner-block-content {
+    padding: 3% 10%;
+  }
+}
+
+@media   (max-width:500px){
+  .inner-block-content {
+    padding: 3% 0%;
+
+  }
+}
