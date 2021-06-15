@@ -247,7 +247,7 @@ font-size: 0.9rem;
   }
 }
 
-@media(min-width: 500px) {
+@media(max-width: 500px) {
   .episode-images {
     width: 100%;
     height: 270px;
